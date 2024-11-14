@@ -17,14 +17,6 @@ const Trusted = () => {
         pauseOnHover: true
     };
 
-    // const items = Array.from({ length: 10 }, (_, index) => (
-    //     <div key={index}>
-    //         <div className='w-40 h-16 bg-white'>
-    //             {index + 1}
-    //         </div>
-    //     </div>
-    // ));
-
     return (
         <div className='overflow-hidden'>
             <Heading className='text-center mx-5' text='Trusted By Developer at' />
