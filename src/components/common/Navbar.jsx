@@ -6,8 +6,8 @@ const Navbar = ({ className }) => {
     return (
         <nav className={`${className}`}>
             <div className="container flex items-center justify-between pt-[18px] pb-4">
+                <img className='w-[85px] h-[53px]' src={Page_Logo} alt="Page Logo" />
                 <div className='flex items-center gap-[60px]'>
-                    <img className='w-[173px] h-[53px]' src={Page_Logo} alt="Page Logo" />
                     <ul className='flex items-center gap-7'>
                         <li className="text-custom-xl leading-127 font-bold text-secondary-color">Product</li>
                         <li className="text-custom-xl leading-127 font-bold text-secondary-color">Explore</li>

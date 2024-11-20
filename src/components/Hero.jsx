@@ -18,17 +18,17 @@ const Hero = () => {
                 </div>
             </div>
             <div className="container pt-20">
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between lg:gap-6">
                     <div className="w-1/2">
-                        <h1 className='font-bold leading-120 text-custom-4xl text-secondary-color'>Smart Routing, One Unified API</h1>
+                        <h1 className='font-bold leading-120 text-custom-4xl text-secondary-color'>Welcome to aman punia portfolio</h1>
                         <Paragraph className='max-w-[514px]' text='Intelligently route every prompt to the best LLM, slashing API costs by up to 99% while ensuring unmatched quality and speed.' />
                         <div className='flex gap-[10px] items-center mt-12'>
                             <Button orangeBoxText='Book a Demo' />
                             <Button transparentBoxText='Try for Free' />
                         </div>
                     </div>
-                    <div className="w-1/2">
-                        <img className='max-w-[648px] h-[513px] w-full max-xl:object-contain' src={Hero_Skills} alt="Hero Skills" />
+                    <div className="w-1/2 flex justify-end">
+                        <img className='max-w-[460px] h-[460px] w-full max-xl:object-contain pointer-events-none' src={Hero_Skills} alt="Hero Skills" />
                     </div>
                 </div>
             </div>

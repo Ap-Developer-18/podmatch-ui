@@ -4,14 +4,18 @@ module.exports = {
   theme: {
     extend: {
       container: {
+        center: true,
         padding: "24px",
-        center: "true",
+        screens: {
+          lg: "1188px", // Set max-width to 1188px on large screens
+        },
       },
       colors: {
         "primary-color": "#EF5B24",
         "secondary-color": "#ECECEC",
         "grey-color": "#BBBBBB",
         "body-color": "#0d0d0d",
+        "border-color": "#424242",
       },
       backgroundImage: {
         "navbar-gradient":
