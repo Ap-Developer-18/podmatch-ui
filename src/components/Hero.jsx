@@ -28,7 +28,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className="w-5/12 flex justify-end">
-                        <img className='max-w-[460px] h-[460px] w-full max-xl:object-contain pointer-events-none' src={Hero_Skills} alt="Hero Skills" />
+                        <img className='max-w-[503px] h-[460px] w-full max-xl:object-contain pointer-events-none' src={Hero_Skills} alt="Hero Skills" />
                     </div>
                 </div>
             </div>
