@@ -13,9 +13,10 @@ import P_Or_G from "../assets/images/png/porg.png"
 
 const Trusted = () => {
     const settings = {
-        dots: true,
+        dots: false,
+        arrow: false,
         infinite: true,
-        slidesToShow: 7,
+        slidesToShow: 6,
         slidesToScroll: 1,
         autoplay: true,
         speed: 3000,
